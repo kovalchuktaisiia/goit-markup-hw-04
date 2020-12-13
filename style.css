@@ -501,6 +501,12 @@ footer {
     width: 1200px;
 }
 
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    
+}
+
 footer a {
        text-decoration: none;  
 }
@@ -512,7 +518,6 @@ footer a {
     padding-bottom: 20px;
     display: inline-block;
     text-align: center;
-
     margin-bottom: 20px;
 }
 
@@ -539,4 +544,47 @@ address {
 font-style: normal;
 padding-bottom: 60px;
 }   
+
+.join {
+    display: inline-block;
+    text-align: center;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 72px;
+    padding-left: 70px;
+}
+
+.media {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    background-color:rgba(255, 255, 255, 0.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    border-radius: 50%; 
+}
+.media:hover {
+    background-color: var(--accent-link-color);
+}
+
+.instagram {
+
+    background-image: url(./svg/facebook\ 1.svg);
+}
+
+.twiter {
+    background-image: url(./svg/twitter\ 1.svg);
+}
+
+.facebook {
+    background-image: url(./svg/facebook\ 1.svg);
+}
+
+.linkedin {
+    background-image: url(./svg/linkedin\ 1.svg);
+}
+
 
