@@ -403,6 +403,7 @@ p {
 .sosial-media-list a:focus,
 .sosial-media-list a:active {
   background-color: var(--accent-link-color);
+  fill: white;
 }
 
 .media-icon {
@@ -420,6 +421,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding: 0px;
     padding-bottom: 94px;
   }
 
@@ -444,8 +446,10 @@ p {
 }
   
 .clients-link:hover,
-.clients-link:focus {
-    fill: var(--icons-contrast-color);
+.clients-link:focus,
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: var(--accent-link-color);
     border-color: var(--accent-link-color);
 }
 
