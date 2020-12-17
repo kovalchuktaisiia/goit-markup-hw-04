@@ -382,7 +382,6 @@ p {
 
 .sosial-media-list {
     display: flex;
-    text-align: center;
     padding-left: 32px;
     margin: 0px;
     margin-bottom: 30px;
@@ -390,10 +389,28 @@ p {
   justify-content: center;
 }
 
-.media-icon {
-    width: 44px;
+.sosial-media-list a {
+    display: flex;
     height: 44px;
-    fill: green;
+    width: 44px;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: var(--white-background);
+}
+
+.sosial-media-list a:hover,
+.sosial-media-list a:focus,
+.sosial-media-list a:active {
+  background-color: var(--accent-link-color);
+}
+
+.media-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    fill: currentColor;
 }
 
 
