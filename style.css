@@ -403,8 +403,8 @@ p {
 .sosial-media-list a:focus,
 .sosial-media-list a:active {
   background-color: var(--accent-link-color);
+  fill: var(--white-background);
 }
-
 
 .media-icon {
     width: 20px;
