@@ -447,16 +447,17 @@ p {
 .clients-link:hover,
 .clients-link:focus {
     border-color: var(--accent-link-color);
+    fill: var(--accent-link-color);
 }
 
 .clients-icon {
     fill: currentColor;
 }
 
-.clients-icon:hover,
+/* .clients-icon:hover,
 .clients-icon:focus {
     fill: var(--accent-link-color);
-}
+} */
 
 .section-projects {
     background-color: var(--white-background);
