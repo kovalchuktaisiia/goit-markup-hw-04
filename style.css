@@ -405,10 +405,6 @@ p {
   background-color: var(--accent-link-color);
 }
 
-.media-icon:hover {
-    fill: white;
-}
-
 
 .media-icon {
     width: 20px;
@@ -442,7 +438,6 @@ p {
 
 .clients-item {
     margin-right: 30px;
-    fill: var(--icons-primary-color);
  }
 
 .clients-item:last-child {
@@ -450,11 +445,17 @@ p {
 }
   
 .clients-link:hover,
-.clients-link:focus,
+.clients-link:focus {
+    border-color: var(--accent-link-color);
+}
+
+.clients-icon {
+    fill: currentColor;
+}
+
 .clients-icon:hover,
 .clients-icon:focus {
     fill: var(--accent-link-color);
-    border-color: var(--accent-link-color);
 }
 
 .section-projects {
