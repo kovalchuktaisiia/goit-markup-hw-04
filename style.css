@@ -403,8 +403,12 @@ p {
 .sosial-media-list a:focus,
 .sosial-media-list a:active {
   background-color: var(--accent-link-color);
-  fill: white;
 }
+
+.media-icon:hover {
+    fill: white;
+}
+
 
 .media-icon {
     width: 20px;
