@@ -389,7 +389,7 @@ p {
   justify-content: center;
 }
 
-.sosial-media-list a {
+.sosial-media-item a {
     display: flex;
     height: 44px;
     width: 44px;
