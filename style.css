@@ -413,6 +413,38 @@ p {
     fill: currentColor;
 }
 
+.clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 94px;
+  }
+
+ .clients-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid;
+    border-color: #AFB1B8;
+    border-radius: 4px;
+ }
+
+.clients-item {
+    margin-right: 30px;
+    fill: var(--icons-primary-color);
+ }
+
+.clients-item:last-child {
+    margin-right: 0;
+}
+  
+.clients-link:hover,
+.clients-link:focus {
+    fill: var(--icons-contrast-color);
+    border-color: var(--accent-link-color);
+}
 
 .section-projects {
     background-color: var(--white-background);
