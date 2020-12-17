@@ -151,11 +151,15 @@ header a {
 .header-adres {
     display: flex;
     position: right;
+    font-weight: 500;
     padding-top: 32px;
     padding-bottom: 32px;
     margin: 0px;
     margin-left: auto;
-  
+}
+
+.header-adres .email-phone {
+    font-weight: 500;
 }
 
 .header-adres .item + .item {
@@ -241,7 +245,7 @@ ul {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    height: 50px;
     min-width: 200px;
     margin-top: 30px;
 }
@@ -643,13 +647,15 @@ padding-bottom: 60px;
     display: inline-block;
     height: 44px;
     width: 44px;
+    margin-right: 10px;
     background-color:rgba(255, 255, 255, 0.1);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
     border-radius: 50%; 
 }
-.media:hover {
+.media:hover,
+.media:focus {
     background-color: var(--accent-link-color);
 }
 
