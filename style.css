@@ -396,14 +396,13 @@ p {
     align-items: center;
     border-radius: 50%;
     margin-right: 10px;
-    color: var(--white-background);
+    fill: currentColor;
 }
 
 .sosial-media-list a:hover,
-.sosial-media-list a:focus,
-.sosial-media-list a:active {
+.sosial-media-list a:focus {
   background-color: var(--accent-link-color);
-  fill: var(--white-background);
+  fill: white;
 }
 
 .media-icon {
@@ -411,7 +410,6 @@ p {
     height: 20px;
     margin-left: auto;
     margin-right: auto;
-    fill: currentColor;
 }
 
 .our-clients {
