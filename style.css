@@ -413,6 +413,9 @@ p {
     fill: currentColor;
 }
 
+.our-clients {
+    padding-top: 94px;
+}
 .clients {
     display: flex;
     justify-content: space-between;
