@@ -166,7 +166,24 @@ header a {
     margin-left: 40px;
 }
 
-.envelope::before{
+.envelope {
+    width: 16px;
+    height: 10px;
+    margin-right: 10px;
+    background-position: center;
+    fill: var(--icon-colour);
+
+}
+
+.phone-icon {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-position: center;
+    fill: var(--icon-colour);
+}
+
+/* .envelope::before{
     background-image: url(./svg/envelope.svg);
     margin-right: 10px;
     content: "";
@@ -176,7 +193,17 @@ header a {
     width: 16px;
 }
 
-.phone-icon::before {
+.email-phone:hover {
+    fill: var(--accent-link-color);
+
+} */
+
+/* .envelope::before:hover {
+    fill: var(--accent-link-color);
+} */
+
+
+/* .phone-icon::before {
     background-image: url(./svg/smartphone\ 1.svg);
     margin-right: 10px;
     content: "";
@@ -185,7 +212,7 @@ header a {
     display: inline-block;
     height: 16px;
     width: 10px;
-}
+} */
 
 .current {
     color: var(--accent-link-color);
@@ -199,6 +226,7 @@ header a {
     height: 16px;
     left: 1078px;
     top: 32px;
+    fill: var(--accent-link-color)
 }
 
 body {
@@ -623,6 +651,7 @@ footer a {
     line-height: 24px;
     letter-spacing: 0.03em;
     margin-top: 10px;
+    display: ;
 }
 
 address p:last-child {
