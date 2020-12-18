@@ -474,11 +474,17 @@ p {
     margin-right: 0;
 }
 
-.clients-item a:hover,
-.clients-item a:focus {
+.clients-item a:hover, .clients-item a:hover svg,
+.clients-item a:focus, .clients-item a:focus svg {
     border-color: var(--accent-link-color);
     fill: var(--accent-link-color);
 }
+
+/* .clients-item a:hover,
+.clients-item a:focus {
+    border-color: var(--accent-link-color);
+    fill: var(--accent-link-color);
+} */
   
 /* .clients-link:hover,
 .clients-link:focus {
