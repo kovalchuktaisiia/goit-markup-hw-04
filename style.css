@@ -170,8 +170,8 @@ header a {
     width: 16px;
     height: 10px;
     margin-right: 10px;
-    background-position: center;
-    fill: var(--icon-colour);
+    vertical-align: middle;
+    fill: currentColor;
 
 }
 
@@ -192,16 +192,6 @@ header a {
     height: 12px;
     width: 16px;
 }
-
-.email-phone:hover {
-    fill: var(--accent-link-color);
-
-} */
-
-/* .envelope::before:hover {
-    fill: var(--accent-link-color);
-} */
-
 
 /* .phone-icon::before {
     background-image: url(./svg/smartphone\ 1.svg);
@@ -226,7 +216,6 @@ header a {
     height: 16px;
     left: 1078px;
     top: 32px;
-    fill: var(--accent-link-color)
 }
 
 body {
