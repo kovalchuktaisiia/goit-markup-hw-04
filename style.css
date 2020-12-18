@@ -445,20 +445,27 @@ p {
 .clients-item:last-child {
     margin-right: 0;
 }
+
+.clients-item a:hover,
+.clients-item a:focus {
+    border-color: var(--accent-link-color);
+    fill: var(--accent-link-color);
+}
   
-.clients-link:hover,
+/* .clients-link:hover,
 .clients-link:focus {
     border-color: var(--accent-link-color);
-}
+    fill: var(--accent-link-color);
+} */
 
 .clients-icon {
     fill: var(--icon-colour);
 }
 
-.clients-icon:hover,
+/* .clients-icon:hover,
 .clients-icon:focus {
     fill: var(--accent-link-color);
-}
+} */
 
 .section-projects {
     background-color: var(--white-background);
