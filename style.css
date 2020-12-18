@@ -166,21 +166,24 @@ header a {
     margin-left: 40px;
 }
 
+.current {
+    color: var(--accent-link-color);
+}
+
 .envelope {
     width: 16px;
     height: 10px;
     margin-right: 10px;
     vertical-align: middle;
     fill: currentColor;
-
 }
 
 .phone-icon {
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    background-position: center;
-    fill: var(--icon-colour);
+    vertical-align: middle;
+    fill: currentColor;
 }
 
 /* .envelope::before{
@@ -204,18 +207,20 @@ header a {
     width: 10px;
 } */
 
-.current {
-    color: var(--accent-link-color);
-}
-
-
-.header a:hover, 
+/* .header a:hover, 
 .header a:focus {
     color: var(--accent-link-color);
     width: 135px;
     height: 16px;
     left: 1078px;
     top: 32px;
+} */
+
+
+.header a:hover, .header a:hover svg,
+.header a:focus, .header a:focus svg {
+    color: var(--accent-link-color);
+    fill: var(--accent-link-color);
 }
 
 body {
